@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "more-armor",
+	"version": "${version}",
+	"name": "More Armor",
+	"description": "first mod yipee",
+	"authors": [
+		"its.me.joshua"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT-License",
+	"icon": "assets/more-armor/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"its.joshua.morearmor.MoreArmor"
+		],
+		"fabric-datagen": [
+			"its.joshua.morearmor.MoreArmorDataGenerator"
+		]
+	},
+	"mixins": [
+		"more-armor.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
