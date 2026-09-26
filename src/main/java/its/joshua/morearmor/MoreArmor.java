@@ -1,5 +1,6 @@
 package its.joshua.morearmor;
 
+import its.joshua.morearmor.creativemodetab.ModCreativeModeTabs;
 import its.joshua.morearmor.item.moditem;
 import net.fabricmc.api.ModInitializer;
 
@@ -21,6 +22,7 @@ public class MoreArmor implements ModInitializer {
 		// This code runs as soon as Minecraft is in a mod-load-ready state.
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
+		ModCreativeModeTabs.registerModCreativeModeTabs();
 		moditem.registerModItems();
 	}
 
