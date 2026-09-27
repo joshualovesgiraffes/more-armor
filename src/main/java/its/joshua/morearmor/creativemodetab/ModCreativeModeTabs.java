@@ -17,6 +17,9 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativemodetab.MoreArmor.tab_more_armor"))
                     .displayItems((parameters, output) -> {
                         output.accept(moditem.UPGRADESHARD_SPD);
+                        output.accept(moditem.UPGRADESHARD_DMG);
+                        output.accept(moditem.UPGRADESHARD_HST);
+                        output.accept(moditem.UPGRADESHARD_REG);
                     }).build());
     public static void registerModCreativeModeTabs() {
         MoreArmor.LOGGER.info("Registering Creative Mode Tabs for " + MoreArmor.MOD_ID);

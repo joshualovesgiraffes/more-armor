@@ -1,3 +1,9 @@
 // 26.3	-999999999-01-01T00:00:00	More Armor/Model Definitions
+b255229f07280ec1a58a1bc656377485a1b29a3b assets/more-armor/items/upgrade_shard_dmg.json
+c5e6500b1facbb1e3f1cd3c5b0a1a9288b3f6310 assets/more-armor/items/upgrade_shard_hst.json
+d01b27bb9439a7f04e6377f69c4733e217c93661 assets/more-armor/items/upgrade_shard_reg.json
 f3824fa09f3f6bd2855d44c2c3a88c514809b4bf assets/more-armor/items/upgrade_shard_spd.json
+744b9e85c83060331a430fd7110f39f6e74b8ca8 assets/more-armor/models/item/upgrade_shard_dmg.json
+d02fbfddf14d935aa9fe11fe20fb41372177a652 assets/more-armor/models/item/upgrade_shard_hst.json
+80063e8381f1a6b602cbc3a9cae18c3442e60f8a assets/more-armor/models/item/upgrade_shard_reg.json
 0d843fbfbb7f9311699917783e9c48098fb35bf0 assets/more-armor/models/item/upgrade_shard_spd.json

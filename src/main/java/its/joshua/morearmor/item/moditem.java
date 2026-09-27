@@ -14,6 +14,9 @@ import java.util.function.Function;
 
 public class moditem {
     public static final Item UPGRADESHARD_SPD = registerItem("upgrade_shard_spd", Item::new);
+    public static final Item UPGRADESHARD_DMG = registerItem("upgrade_shard_dmg", Item::new);
+    public static final Item UPGRADESHARD_HST = registerItem("upgrade_shard_hst", Item::new);
+    public static final Item UPGRADESHARD_REG = registerItem("upgrade_shard_reg", Item::new);
 
     private static Item registerItem(String name, Function<Item.Properties, Item> function) {
         return Registry.register(BuiltInRegistries.ITEM, Identifier.fromNamespaceAndPath(MoreArmor.MOD_ID, name),
@@ -23,8 +26,11 @@ public class moditem {
     public static void registerModItems() {
         MoreArmor.LOGGER.info("Registering Mod Items for " + MoreArmor.MOD_ID);
 
-        CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.INGREDIENTS).register(output ->
-            {output.accept(UPGRADESHARD_SPD);
+        CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.INGREDIENTS).register(output -> {
+            output.accept(UPGRADESHARD_SPD);
+            output.accept(UPGRADESHARD_DMG);
+            output.accept(UPGRADESHARD_HST);
+            output.accept(UPGRADESHARD_REG);
         });
     }
 }

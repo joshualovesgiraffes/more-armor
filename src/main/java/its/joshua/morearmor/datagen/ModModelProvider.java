@@ -21,6 +21,8 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateItemModels(ItemModelGenerators itemModelGenerators) {
         itemModelGenerators.generateFlatItem(moditem.UPGRADESHARD_SPD, ModelTemplates.FLAT_ITEM);
-
+        itemModelGenerators.generateFlatItem(moditem.UPGRADESHARD_DMG, ModelTemplates.FLAT_ITEM);
+        itemModelGenerators.generateFlatItem(moditem.UPGRADESHARD_HST, ModelTemplates.FLAT_ITEM);
+        itemModelGenerators.generateFlatItem(moditem.UPGRADESHARD_REG, ModelTemplates.FLAT_ITEM);
     }
 }
