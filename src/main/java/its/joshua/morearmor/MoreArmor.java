@@ -24,6 +24,7 @@ public class MoreArmor implements ModInitializer {
 		// Proceed with mild caution.
 		ModCreativeModeTabs.registerModCreativeModeTabs();
 		moditem.registerModItems();
+		ModLootInjector.register();
 	}
 
 	public static Identifier id(String path) {
