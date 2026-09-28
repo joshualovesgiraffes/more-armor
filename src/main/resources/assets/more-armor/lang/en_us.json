@@ -3,5 +3,9 @@
   "item.more-armor.upgrade_shard_dmg": "Damage Upgrade Shard",
   "item.more-armor.upgrade_shard_hst": "Haste Upgrade Shard",
   "item.more-armor.upgrade_shard_reg": "Regeneration Upgrade Shard",
+  "trim_pattern.more-armor.speed": "Speed",
+  "trim_pattern.more-armor.damage": "Damage",
+  "trim_pattern.more-armor.haste": "Haste",
+  "trim_pattern.more-armor.regeneration": "Regeneration",
   "creativemodetab.MoreArmor.tab_more_armor": "More Armor"
 }

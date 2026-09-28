@@ -2,6 +2,8 @@ package its.joshua.morearmor;
 
 import its.joshua.morearmor.creativemodetab.ModCreativeModeTabs;
 import its.joshua.morearmor.item.moditem;
+import its.joshua.morearmor.recipe.ArmorUpgradeEffects;
+import its.joshua.morearmor.recipe.ModRecipes;
 import net.fabricmc.api.ModInitializer;
 
 import net.minecraft.resources.Identifier;
@@ -24,6 +26,8 @@ public class MoreArmor implements ModInitializer {
 		// Proceed with mild caution.
 		ModCreativeModeTabs.registerModCreativeModeTabs();
 		moditem.registerModItems();
+		ModRecipes.register();
+		ArmorUpgradeEffects.register();
 		ModLootInjector.register();
 	}
 
