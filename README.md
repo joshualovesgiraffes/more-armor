@@ -1,9 +1,4 @@
 # More Armor
-
-## Setup
-
-For setup instructions, please see the [Fabric Documentation page](https://docs.fabricmc.net/develop/getting-started/creating-a-project#setting-up) related to the IDE that you are using.
-
-## License
-
-This template is available under the MIT license.
+Under MIT License
+issues go into the issue tracker.
+i accept suggestions in the issue tracker too.
